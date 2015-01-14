@@ -1,0 +1,28 @@
+sandbox.hortonworks.com,Ambari Smoke Test User,ambari-qa@EXAMPLE.COM,smokeuser.headless.keytab,/etc/security/keytabs,ambari-qa,hadoop,440
+sandbox.hortonworks.com,HDFS User,hdfs@EXAMPLE.COM,hdfs.headless.keytab,/etc/security/keytabs,hdfs,hadoop,440
+sandbox.hortonworks.com,HBase User,hbase@EXAMPLE.COM,hbase.headless.keytab,/etc/security/keytabs,hbase,hadoop,440
+sandbox.hortonworks.com,HDFS SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,HDFS SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,WebHCat SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,Hive SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,Oozie SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,Falcon SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,History server SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,ResourceManager SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,NodeManager SPNEGO User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,YARN ATS HTTP User,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,Storm UI Server,HTTP/sandbox.hortonworks.com@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+sandbox.hortonworks.com,App Timeline Server,yarn/sandbox.hortonworks.com@EXAMPLE.COM,yarn.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+sandbox.hortonworks.com,DataNode,dn/sandbox.hortonworks.com@EXAMPLE.COM,dn.service.keytab,/etc/security/keytabs,hdfs,hadoop,400
+sandbox.hortonworks.com,DRPC Server,nimbus/sandbox.hortonworks.com@EXAMPLE.COM,nimbus.service.keytab,/etc/security/keytabs,storm,hadoop,400
+sandbox.hortonworks.com,Falcon Server,falcon/sandbox.hortonworks.com@EXAMPLE.COM,falcon.service.keytab,/etc/security/keytabs,falcon,hadoop,400
+sandbox.hortonworks.com,HBase Master,hbase/sandbox.hortonworks.com@EXAMPLE.COM,hbase.service.keytab,/etc/security/keytabs,hbase,hadoop,400
+sandbox.hortonworks.com,History Server,jhs/sandbox.hortonworks.com@EXAMPLE.COM,jhs.service.keytab,/etc/security/keytabs,mapred,hadoop,400
+sandbox.hortonworks.com,Hive Metastore and HiveServer2,hive/sandbox.hortonworks.com@EXAMPLE.COM,hive.service.keytab,/etc/security/keytabs,hive,hadoop,400
+sandbox.hortonworks.com,Nagios Server,nagios/sandbox.hortonworks.com@EXAMPLE.COM,nagios.service.keytab,/etc/security/keytabs,nagios,hadoop,400
+sandbox.hortonworks.com,NameNode,nn/sandbox.hortonworks.com@EXAMPLE.COM,nn.service.keytab,/etc/security/keytabs,hdfs,hadoop,400
+sandbox.hortonworks.com,NodeManager,nm/sandbox.hortonworks.com@EXAMPLE.COM,nm.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+sandbox.hortonworks.com,Oozie Server,oozie/sandbox.hortonworks.com@EXAMPLE.COM,oozie.service.keytab,/etc/security/keytabs,oozie,hadoop,400
+sandbox.hortonworks.com,ResourceManager,rm/sandbox.hortonworks.com@EXAMPLE.COM,rm.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+sandbox.hortonworks.com,Storm UI Server,storm@EXAMPLE.COM,storm.service.keytab,/etc/security/keytabs,storm,hadoop,400
+sandbox.hortonworks.com,ZooKeeper Server,zookeeper/sandbox.hortonworks.com@EXAMPLE.COM,zk.service.keytab,/etc/security/keytabs,zookeeper,hadoop,400
